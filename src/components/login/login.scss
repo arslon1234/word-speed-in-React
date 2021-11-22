@@ -1,0 +1,188 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .loginItem {
+    width: 950px;
+    height: 570px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    .itemHeader {
+      width: 100%;
+      height: 80px;
+      display: flex;
+      align-items: flex-end;
+      border-bottom: 1px solid #ccc;
+      :nth-child(1) {
+        width: 70px;
+        height: 45px;
+        border-top: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        font-size: 18px;
+        color: #999;
+        cursor: pointer;
+      }
+      :nth-child(2) {
+        width: 200px;
+        margin-left: 10px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #429ad9;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        &:hover {
+          background-color: #f0eeee;
+        }
+      }
+    }
+    .itemBody {
+      display: flex;
+      width: 100%;
+      margin-top: 40px;
+      .bodyleft {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        margin-left: 20px;
+        :nth-child(1) {
+          font-size: 22px;
+          color: #f26302;
+        }
+        :nth-child(2) {
+          width: 90%;
+          height: 1.2px;
+          background-color: #c0bfbf;
+          margin: 5px;
+        }
+        :nth-child(3) {
+          margin-top: 40px;
+          width: 260px;
+          height: 45px;
+          border: none;
+          border-radius: 5px;
+          background-color: #305991;
+          cursor: pointer;
+          i {
+            color: #fff;
+            margin-right: 10px;
+            margin-top: 5px;
+            font-size: 22px;
+          }
+          span {
+            background-color: transparent;
+            color: #fff;
+            font-size: 18px;
+            margin-right: 45px;
+          }
+        }
+        :nth-child(4) {
+          margin-top: 20px;
+          width: 260px;
+          height: 45px;
+          background-color: #fff;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          img {
+            width: 25px;
+            height: 25px;
+            margin-right: 5px;
+          }
+          span {
+            background-color: transparent;
+            color: #000;
+            font-size: 18px;
+            margin-right: 60px;
+          }
+          &:hover {
+            background-color: #f7f7f7;
+            cursor: pointer;
+          }
+        }
+      }
+      .bodyright {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        :nth-child(1) {
+          font-size: 22px;
+          color: #f26302;
+        }
+        :nth-child(2) {
+          width: 90%;
+          height: 1.2px;
+          background-color: #c0bfbf;
+          margin: 5px;
+        }
+        :nth-child(3) {
+          margin-top: 40px;
+          font-size: 18px;
+          font-weight: 500;
+        }
+        :nth-child(4) {
+          width: 90%;
+          height: 40px;
+          font-size: 18px;
+          margin-top: 5px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          outline-color: rgb(64, 107, 224);
+          outline-width: 0.1px;
+          outline-offset: unset;
+        }
+        :nth-child(5) {
+          margin-top: 20px;
+          font-size: 18px;
+          font-weight: 500;
+        }
+        :nth-child(6) {
+          width: 90%;
+          height: 40px;
+          font-size: 18px;
+          margin-top: 5px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          outline-color: rgb(64, 107, 224);
+          outline-width: 0.1px;
+          outline-offset: unset;
+        }
+        :nth-child(7) {
+          margin-top: 50px;
+          width: 90px;
+          height: 40px;
+          border-radius: 5px;
+          background-color: #5bc0f2;
+          border: none;
+          font-size: 18px;
+          color: #fff;
+          letter-spacing: 0.8px;
+        }
+        :nth-child(8) {
+          margin-top: 30px;
+          color: #429ad9;
+          font-size: 18px;
+          width: 45%;
+          transition: all 0.4s linear;
+          &:hover {
+            border-bottom: 1px solid #429ad9;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

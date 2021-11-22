@@ -1,0 +1,155 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #b5d9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .typing {
+    width: 900px;
+    height: 600px;
+    border: 2px solid #fffdfd;
+    border-radius: 10px;
+    padding: 10px;
+    h1 {
+      font-size: 35px;
+      font-family: "Roboto", sans-serif;
+      padding: 15px;
+    }
+    .desc {
+      width: 100%;
+      height: 40px;
+      margin: 15px;
+      button {
+        border: none;
+        width: 70px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: #5bc7eb;
+        color: #fff;
+        font-size: 18px;
+      }
+      :nth-child(2) {
+        width: 100px;
+        height: 40px;
+        margin-left: 15px;
+        font-size: 18px;
+        border: none;
+        border-radius: 7px;
+        background-color: #0d8f43;
+        color: #fff;
+        letter-spacing: 1px;
+      }
+
+      :nth-child(3) {
+        margin-left: 10px;
+        color: #3f3e3e;
+      }
+      .optionItem {
+        width: 150px;
+        background-color: green;
+        outline: none;
+        height: 40px;
+        font-size: 18px;
+
+        option {
+          border-radius: 10px;
+          font-size: 22px;
+          background-color: #fff;
+          color: #136c7c;
+          height: 40px;
+        }
+      }
+    }
+  }
+  .time {
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .speed {
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .data {
+    width: 100%;
+    // height: 175px;
+    background-color: #fff;
+    font-size: 25px;
+    overflow: auto;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 5px;
+    line-height: 36px;
+    border-radius: 5px;
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .inputBtn {
+    display: flex;
+    input {
+      border-radius: 5px;
+      width: 100%;
+      height: 50px;
+      margin-top: 10px;
+      outline: none;
+      border: 1px solid #ccc;
+      font-weight: 500;
+      font-size: 22px;
+    }
+
+    button {
+      width: 10%;
+      height: 52px;
+      margin-top: 10px;
+      color: #000016;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  .result1 {
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  .result2 {
+    color: green;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  .result3 {
+    color: #c52424;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  .correct {
+    font-weight: bold;
+    color: green;
+    font-style: italic;
+  }
+  .incorrect {
+    font-weight: bold;
+    color: red;
+    font-style: oblique;
+  }
+  .active {
+    font-weight: bold;
+    background-color: rgb(240, 238, 238);
+  }
+}
